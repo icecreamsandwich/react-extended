@@ -1,5 +1,6 @@
-var {Tab,Tabs,TabList,TabPanel} = require("react-tabs");
 var React = require("react");
+var {BigCalendar} = require("react-big-calendar");
+var dates = require("../utils/dates");
 
 class uiTabs extends React.Component  {
   constructor() {
